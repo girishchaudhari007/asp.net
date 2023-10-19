@@ -1,0 +1,19 @@
+ protected void Button1_Click(object sender, EventArgs e)
+    {
+        if (ListBox1.SelectedItem != null)
+        {
+            string item = ListBox1.SelectedItem.ToString();
+            ListBox2.Items.Add(item);
+        }
+    }
+    protected void Button2_Click(object sender, EventArgs e)
+    {
+        if (DropDownList1.SelectedValue == "")
+        {
+            Label1.Text = "please select city";
+        }
+        else
+        {
+            Label1.Text = "your choice is" + DropDownList1.SelectedValue;
+        }
+    }
