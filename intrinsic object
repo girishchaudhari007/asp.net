@@ -1,0 +1,4 @@
+    protected void Button1_Click(object sender, EventArgs e)
+    {
+        Label1.Text = "welcome:-" + Server.HtmlEncode(TextBox1.Text) + "<br/> The URL is:" + Server.UrlEncode(Request.Url.ToString());
+    }
