@@ -1,0 +1,16 @@
+HttpBrowserCapabilitiesK;
+K =Request.Browser;
+Response.Write("<h1>BrowserInformation And Capabilities</h1>");
+Response.Write("Browser Name is :-" + K.Browser +
+"<br>");Response.Write("Browser Version is :-" + K.Version +
+"<br>");Response.Write("Browser Support to tables:-" + K.Tables +
+"<br>");Response.Write("BrowserSupporttoJavaScript:-"+K.JavaScript+
+"<br>");
+Response.Write("Browser Support to VBScript :-" + K.VBScript +
+"<br>");Response.Write("Browser Support to Frames :-" + K.Frames +
+"<br>");Response.Write("BrowserSupport to BackGround Sound :-" +
+K.BackgroundSounds+"<br>");
+Response.Write("Browser Support to Cookies :-" + K.Cookies +
+"<br>");Response.Write("Browser ID is :-" + K.Id +
+"<br>");Response.Write("BrowserPlatForm is :-" + K.Platform+
+"<br>");
